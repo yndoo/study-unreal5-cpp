@@ -158,3 +158,13 @@ Pawn은 게임 월드 속에서 플레이어의 물리적 묘사
 `Get Actor Forward Vector`와 `Multiply`노드 사용
 발사체의 방향의 전방 벡터와 충격값을 곱하여 Impulse로 적용시키면 된다!
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/e1788880-c6ab-4e5d-8045-c61c50185de4/image.png)   
+
+### ✔️에셋 가져오기
+1. 에픽게임즈 런처 -> 언리얼 엔진 -> 마켓플레이스
+구매 -> 다운로드 -> 프로젝트에 추가하기
+
+`콘텐츠 드로어 단축키 Ctrl + Space`
+
+2. 다운로드한 에셋 폴더 > Meshes
+에서 원하는 에셋을 드래그해서 쉽게 사용할 수 있음
+![](https://velog.velcdn.com/images/kuronuma_daisy/post/89a8803b-fc7d-46b0-aa5b-a5d0b2627d10/image.png)  
