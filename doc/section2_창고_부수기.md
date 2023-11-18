@@ -49,7 +49,7 @@ _멤버 함수_
 * Self : 멤버 함수 안에서 사용 가능한 노드이며 우리가 사용하는 현재 인스턴스를 항상 가리킴  
 
 ## 학습 내용
-### ✔️블루프린트 예시
+### ✔️블루프린트  
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/14bd3c3e-06f5-4962-9f01-7ab6f9d1fc2d/image.png)  
 왼쪽 노드는 '게임이 시작하면' 을 의미
 가운데 노드는 화면에 String을 출력하는 기능의 노드
@@ -103,9 +103,9 @@ _멤버 함수_
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/1d5cd4c4-dd32-4e9e-961b-7c067b6b28c8/image.png)  
 * 질량 500kg * 속도를 Z축 방향으로 Impulse 부여.
 * 4m/s를 원한다면 질량 * 400 (언리얼은 주요 단위가 cm)
-#### 2. Vel Change 체크박스 체크 시
-Add Impulse 노드의 Vel Change를 체크하면 질량을 무시하고 작성한 값의 속력을 적용한다.
-![](https://velog.velcdn.com/images/kuronuma_daisy/post/26593692-4899-4bb1-9c5a-dc7822ef72ce/image.png)  
+#### 2. Vel Change 체크박스 체크 시  
+Add Impulse 노드의 Vel Change를 체크하면 질량을 무시하고 작성한 값의 속력을 적용한다.  
+![](https://velog.velcdn.com/images/kuronuma_daisy/post/26593692-4899-4bb1-9c5a-dc7822ef72ce/image.png)   
 * 400 입력 시 똑같이 4m/s 속력 적용됨.
 * 하지만 질량이 어떻든 똑같이 점프함. 
 
@@ -253,8 +253,8 @@ Pawn은 게임 월드 속에서 플레이어의 물리적 묘사
 2. 뷰 모드 '플레이어 콜리전'  
 3. 콜리전 제거  
 4. 10면체 Z 단순화 콜리전 추가  
-5. 배럴의 블루프린트 클래스를 만들어서 마음껏 사용하기~!
-![](https://velog.velcdn.com/images/kuronuma_daisy/post/e0a3969e-64c7-49a4-a642-3231c743d582/image.png)  
+5. 배럴의 블루프린트 클래스를 만들어서 마음껏 사용하기~!  
+![](https://velog.velcdn.com/images/kuronuma_daisy/post/e0a3969e-64c7-49a4-a642-3231c743d582/image.png)   
 
 ### ✔️변수 
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/74f206f7-fbb8-4521-b9e3-177f6e920fab/image.png)  
