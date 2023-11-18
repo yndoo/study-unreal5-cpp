@@ -6,7 +6,7 @@
 * 총알 개수 제한하고 총알이 몇 개 남았는지 세고 표시하는 메커니즘
 * 레벨을 다시 로드하려면 어떻게 하는 지  
 
-### ✔️용어집 (섹션 2 전체) 
+## ✔️용어집 (섹션 2 전체) 
 _블루프린트_
 * Event Graph 이벤트 그래프 : 블루프린트를 그릴 캔버스  
 * Node : 블루프린트에서 사용할 수 있는 미리 만들어진 기능
@@ -48,13 +48,14 @@ _멤버 함수_
 * Member function : 클래스의 함수, 항상 특정 인스턴스에서 호출되는 함수
 * Self : 멤버 함수 안에서 사용 가능한 노드이며 우리가 사용하는 현재 인스턴스를 항상 가리킴  
 
-### 🗨️블루프린트 예시
+## 학습 내용
+### ✔️블루프린트 예시
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/14bd3c3e-06f5-4962-9f01-7ab6f9d1fc2d/image.png)  
 왼쪽 노드는 '게임이 시작하면' 을 의미
 가운데 노드는 화면에 String을 출력하는 기능의 노드
 오른쪽 노드는 또다른 String 출력 노드
 
-#### 🗨️실행 모습  
+#### 실행 모습  
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/378b3f61-3345-48f6-bdda-9e96ec497a18/image.png)  
 
 
@@ -354,5 +355,5 @@ Spawn Projectile 함수 내에 임펄스 추가하는 노드들을 묶어 `BP_Pr
 20발 총알 발사 가능하고 총알 소진 시 5초 후 Restart하는 모습.
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/83f10a2f-4ed5-430f-b3f5-3e0ddfebf8b9/image.gif)  
  
-* 블루프린트  
+* 블루프린트 이벤트 그래프 
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/87926a4d-5707-4627-babb-73fcd0aa1b43/image.png)
