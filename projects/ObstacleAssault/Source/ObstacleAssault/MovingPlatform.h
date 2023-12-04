@@ -30,6 +30,8 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	float MyFloat = 5.99;
+	UPROPERTY(EditAnywhere)
+	float MyFloat2 = 0.001;
 
 	UPROPERTY(EditAnywhere)
 	bool MyBool = true;
